@@ -172,6 +172,7 @@ City.prototype.render = function () {
 
 
 
+
 let seattle = new City("seattle", 23, 65, 6.3)
 seattle.generate()
 // firstResturant.render()
@@ -206,7 +207,7 @@ function renderAll(){
         row.append(item)
     }
     item = document.createElement("th")
-    item.textContent = "Total per resturent"
+    item.textContent = "Daily Location Total"
     row.append(item)
     table.append (row)
     
