@@ -1,0 +1,55 @@
+main {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(190, 245, 233);
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+.sec {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 112, 123);
+    padding: 10px;
+    margin: 30px;
+    
+    
+}
+h2 {
+    font-family: fantasy;
+}
+body {
+    background-color: rgb(117, 250, 239);
+}
+header  {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    margin: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+p {
+    height: 30px;
+}
+h3 {
+    height: 30px;
+    font-size: 20px;
+
+    
+}
