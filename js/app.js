@@ -196,7 +196,7 @@ let locations = [seattle, Tokyo, dubai,paris,lima]
 
 function renderAll(){
     let table = document.createElement("table")
-    
+
     let row = document.createElement("tr")
     let item = document.createElement("th")
     
