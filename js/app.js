@@ -288,3 +288,23 @@ renderAll(locations);
 //     </table>
 
 // `)
+
+let cooki = document.getElementById('cooki')
+
+
+function formsubmit(event){
+    event.preventDefault();
+    // console.log(event);
+    let name = (event.target.cname.value);
+    let min = (event.target.min.value);
+    let max = (event.target.max.value);
+    let avg = (event.target.avg.value);
+
+    let newLocation = new City (name , min ,max ,avg);
+    newLocation.generate()
+    locations.push(newLocation)
+    salmon.innerHTML = ""
+    renderAll(locations)
+}
+
+cooki.addEventListener('submit',formsubmit)
