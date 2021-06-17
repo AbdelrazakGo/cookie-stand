@@ -2,33 +2,44 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
+  
    
 }
 
 footer {
     text-align: center;
     margin: 20px;
-    background-color: rgb(190, 245, 233);
+    background-color: #FF6701;
     align-items: center;
-    display: block;
+
+    
     justify-content: center;
+    padding: 10px;
+    
+    
 }
 .sec {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(253, 112, 123);
+    background-color: #FEA82F;
     padding: 10px;
     margin: 30px;
     
     
 }
-h2 {
-    font-family: fantasy;
-}
+/* .h2 {
+    font-family:sans-serif;
+    color: rgb(255, 0, 13);
+    text-decoration: none;
+    background-color: greenyellow;
+} */
 body {
-    background-color: rgb(117, 250, 239);
+    /* background-color: rgb(117, 250, 239); */
+    font-family: sans-serif;
+    /* background-color: #B34180; */
+    /* color: rgb(145, 0, 0); */
 }
 header  {
     text-align: center;
@@ -37,7 +48,13 @@ header  {
     padding: 10px;
     font-family: cursive;
     margin: 30px;
+    background-color:#FCECDD;
+    color: gold;
 
+}
+
+nav {
+    background-color:#FCECDD;
 }
 
 nav a {
@@ -50,6 +67,37 @@ p {
 h3 {
     height: 30px;
     font-size: 20px;
+    font-family: sans-serif;
+    color:rgb(97, 2, 2);
 
+    
+}
+
+p {
+    font-family: sans-serif;
+    color:#0C4271;
+}
+
+h2 {
+    background-color: #FFC288;
+    padding: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+   
+   
+    display: block;
+    align-items: center;
+}
+
+.h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    padding: 20px;
+    margin: 20px;
+}
+
+h6 {
+    font-family: sans-serif;
+    color: rgb(73, 0, 37);
     
 }

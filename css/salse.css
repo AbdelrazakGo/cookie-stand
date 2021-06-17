@@ -1,0 +1,37 @@
+
+table,
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: rgb(255, 203, 229);
+    }
+
+body {
+background-color: #FDFFBC;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cooki {
+    color: #1A508B;
+}
+
+button {
+    color: hotpink;
+    background-color: lightcyan;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding:30px;
+}
+
+a {
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+
+}
